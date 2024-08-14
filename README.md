@@ -3,7 +3,7 @@ The Union Types based mostly on custom_lint. First, the required version of Dart
 // a method declaration of a class:
 void methodOne2(@$(int, Map<List<int?>, int>, List<Map<int, int>>) abcd) => null;
 ```
-And that's it. abcd is dynamic but the annotation shows error in the place the method is called.
+And that's it. abcd is dynamic (could be Object?) but the annotation shows error in the place the method is called.
 With the incoming macros, f.e. applied to a library/entire dart file, you can generate what's missing. Also possibly find a creative way for the macro to load errors produced by the custom_lint package, and the macro throw an Exception if any is found. An exception thrown by the macro as i understand is not only lint error but also an error during compilation time.
 This (and like this) is a temporary solution that cannot replace the incoming Union Types implementation.
 Tested on a couple of strange type inheritation rules, but not everything was tested.
