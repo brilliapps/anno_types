@@ -9,11 +9,6 @@ import 'package:analyzer/error/listener.dart';
 class AnnoTypes extends DartLintRule {
   AnnoTypes() : super(code: _code);
 
-  static final RegExp regex = RegExp(
-    r'normaluniontypeswontbeimplemented\b',
-    caseSensitive: false,
-  );
-
   // Lint rule metadata
   static const _code = LintCode(
       name: 'anno_types_error',
