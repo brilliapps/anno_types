@@ -21,4 +21,4 @@ Here is what you should be able to see (it may time for the package to proces it
 
 Here is the link for the leaned version of the original workshop-package:
 
-[Ling to the anno_types repo](https://github.com/brilliapps/anno_types)
+[Link to the anno_types repo](https://github.com/brilliapps/anno_types)
