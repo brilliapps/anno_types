@@ -13,7 +13,7 @@ But this package is a place to start from or to get inspired.
 
 Also The annotations accept not only types but literals, const objects, etc. However currently i was not able to read evaluated method invokation params so couldn't handle it correctly (did recently an issue/feature request about it for the custom_lint package exactly for this reason). I won't go even deeper into analyzer/custom_lint related stuff.
 
-While a macro could be done to a variable declaration, but for now i wasn't able to find a way to read each assignment of a new value to a given variable. By this i could read the assignment detected during analysis type. Such an assignment would need to point also to the declaration of the variable to be able to read the macro. 
+While a @$ annotation could be applied to a variable declaration, but for now i wasn't able to find a way to read each assignment of a new value to a given variable. By this i could read the type of the assigned value detected during analysis (must be const-like). Such an assignment would need to point also to the declaration of the variable to be able to read the @$ annotation settings.
 
 Here is what you should be able to see (it may time for the package to proces it):
 
