@@ -17,7 +17,7 @@ While a macro could be done to a variable declaration, but for now i wasn't able
 
 Here is what you should be able to see (it may time for the package to proces it):
 
-https://github.com/brilliapps/anno_types/blob/main/readmeasset/screenshotpart.png
+![image](https://github.com/brilliapps/anno_types/blob/main/readmeasset/screenshotpart.png)
 
 Here is the link for the leaned version of the original workshop-package:
 
